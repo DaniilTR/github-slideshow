@@ -1,0 +1,57 @@
+.dws-menu * {
+    margin :0;
+    padding :0;
+}
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+.dws-menu ul {
+    display: flex;
+    justify-content: center;
+}
+.dws-menu > ul li a {
+    display: block;
+    background: #ececed;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0,3s ease;
+}
+.dws-menu ul li {
+    position: relative;
+    border-right: 1px solid #c7c8ca
+}
+.dws-menu ul li a i.fa{
+    position: absolute;
+    top: 15px;
+    left :12px;
+    font-size: 18px;
+}
+.dws-menu ul li: first-child{
+    border-left: 1px solid #b2b3b5
+} 
+.dws-menu ul li: last-child{
+    border-right: : 1px solid #babbbb
+} 
+.dws-menu li a hover:  {
+    background:  #454547;
+    color: #ffffff;
+    box-shadow: 2px 5px 10px -5px block;
+    transition: all 0,3s ease;
+} 
+ <!-- Допалнительная информация start -->
+        <div class="section">
+            <nav class="dws-menu">
+                <ul>
+                    <li><a href="#Привет !"><i class="fas fa-address-book"></i>О бо мне</a></li>
+                    <li><a href="#"><i class="fal fa-book-open"></i>Моё расписание</a></li>
+                    <li><a href="#"><i class="fa fa-book"></i>Мои умения</a></li>
+                    <li><a href="#"><i class="fas fa-bookmark"></i>Contact Me</a></li>
+                    <li><a href="#"><i class="fas fa-bell"></i>Где я</a></li>    
+                </ul>    
+            </nav>
+        </div>
+        <!-- Допалнительная информация end -->
